@@ -1,0 +1,3 @@
+# Directories to ignore
+node_modules/
+dist/ 
