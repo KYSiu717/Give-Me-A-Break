@@ -28,7 +28,20 @@ h3.labels {
   width: 300px;
   margin-top: 10px;
   padding: 10px;
+  text-align: center;
+  font-size: 30px;
+  color: skyblue;
+  border: solid rgb(40, 211, 154) 2px;
 }
+input:focus {
+  background-color: white;
+  outline-color: rgb(40, 211, 154);
+}
+::placeholder {
+  color: skyblue;
+  opacity: 1;
+}
+
 /* vvv generates the stopwatch circle vvv */
 .timer {
   top: 10px;
@@ -41,12 +54,14 @@ h3.labels {
 .timeView {
   top: 20%;
   font-size: 4.5em;
-  margin-top: 0;
+  margin: 0;
   color: rgb(40, 211, 154);
 }
 .timerButton {
+  vertical-align: middle;
+  font-size: 1.25em;
   margin: 10px;
-  width: 100px;
+  width: 75px;
   height: 50px;
   background-color: skyblue;
 }
